@@ -11,6 +11,7 @@ public class Carspaner : MonoBehaviour {
     public float maxPoa = 18.4f;
     public float delayTimer = 1f; 
     float timer;
+  
     // Use this for initialization
     void Start () {
         timer = delayTimer;
@@ -19,6 +20,7 @@ public class Carspaner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
@@ -28,4 +30,5 @@ public class Carspaner : MonoBehaviour {
             timer = delayTimer;
         }
     }
-}
+   
+ }

@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F2CD2487-DB15-2EC5-12DD-35219445511E}</ProjectGuid>
+    <ProjectGuid>{6A434865-4E1A-B699-4BDE-D55F7C91A0AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,14 +49,14 @@
      <Compile Include="Assets\Scrip\BarrierMove.cs" />
      <Compile Include="Assets\Scrip\CarsControll.cs" />
      <Compile Include="Assets\Scrip\Carspaner.cs" />
+     <Compile Include="Assets\Scrip\Data.cs" />
+     <Compile Include="Assets\Scrip\Itemspaner.cs" />
      <Compile Include="Assets\Scrip\MusicManeger.cs" />
      <Compile Include="Assets\Scrip\Swichcar.cs" />
      <Compile Include="Assets\Scrip\Uimaneger.cs" />
      <Compile Include="Assets\Scrip\destroy.cs" />
+     <Compile Include="Assets\Scrip\itemMovie.cs" />
      <Compile Include="Assets\Scrip\linesMove.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>E:/unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -71,9 +71,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>E:/unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>E:/unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>E:/unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
